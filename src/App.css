@@ -1,0 +1,25 @@
+.row {
+    display: flex;
+    justify-content: space-between;
+    overflow-x: scroll;
+    gap: 30px;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+}
+
+.FavRow {
+    display: flex;
+    overflow-x: scroll;
+    gap: 30px;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+}
+
+.row::-webkit-scrollbar {
+    display: none;
+}
+
+.card {
+    width: 300px;
+
+}
